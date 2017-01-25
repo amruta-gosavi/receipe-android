@@ -13,7 +13,7 @@ import amruta.com.recipesonapprest.R;
 
 
 /**
- * This activity is the container for the viewpager and fragments. and responsible for getting data from server.
+ * This activity is the container for the viewpager and fragments. and responsible for getting data from server.1
  */
 
 public class MainActivity extends AppCompatActivity {

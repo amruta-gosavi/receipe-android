@@ -1,0 +1,1945 @@
+Index: app/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/.gitignore	(date 1484335723000)
++++ app/.gitignore	(date 1484335723000)
+@@ -0,0 +1,1 @@
++/build
+Index: app/app.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/app.iml	(date 1485302379000)
++++ app/app.iml	(date 1485302379000)
+@@ -0,0 +1,168 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module external.linked.project.id=":app" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$/.." external.system.id="GRADLE" type="JAVA_MODULE" version="4">
++  <component name="FacetManager">
++    <facet type="android-gradle" name="Android-Gradle">
++      <configuration>
++        <option name="GRADLE_PROJECT_PATH" value=":app" />
++      </configuration>
++    </facet>
++    <facet type="android" name="Android">
++      <configuration>
++        <option name="SELECTED_BUILD_VARIANT" value="debug" />
++        <option name="SELECTED_TEST_ARTIFACT" value="_android_test_" />
++        <option name="ASSEMBLE_TASK_NAME" value="assembleDebug" />
++        <option name="COMPILE_JAVA_TASK_NAME" value="compileDebugSources" />
++        <afterSyncTasks>
++          <task>generateDebugSources</task>
++        </afterSyncTasks>
++        <option name="ALLOW_USER_CONFIGURATION" value="false" />
++        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
++        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
++        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/src/main/res" />
++        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
++      </configuration>
++    </facet>
++  </component>
++  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="false">
++    <output url="file://$MODULE_DIR$/build/intermediates/classes/debug" />
++    <output-test url="file://$MODULE_DIR$/build/intermediates/classes/test/debug" />
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/debug" isTestSource="false" generated="true" />
++      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/debug" isTestSource="false" generated="true" />
++      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
++      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/debug" isTestSource="false" generated="true" />
++      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/debug" isTestSource="false" generated="true" />
++      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/debug" type="java-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/debug" type="java-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/androidTest/debug" isTestSource="true" generated="true" />
++      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/androidTest/debug" isTestSource="true" generated="true" />
++      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/androidTest/debug" isTestSource="true" generated="true" />
++      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/androidTest/debug" isTestSource="true" generated="true" />
++      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/androidTest/debug" isTestSource="true" generated="true" />
++      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/androidTest/debug" type="java-test-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/androidTest/debug" type="java-test-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/src/debug/res" type="java-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/src/debug/resources" type="java-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/src/debug/assets" type="java-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/src/debug/aidl" isTestSource="false" />
++      <sourceFolder url="file://$MODULE_DIR$/src/debug/java" isTestSource="false" />
++      <sourceFolder url="file://$MODULE_DIR$/src/debug/jni" isTestSource="false" />
++      <sourceFolder url="file://$MODULE_DIR$/src/debug/rs" isTestSource="false" />
++      <sourceFolder url="file://$MODULE_DIR$/src/debug/shaders" isTestSource="false" />
++      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/res" type="java-test-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/resources" type="java-test-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/assets" type="java-test-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/aidl" isTestSource="true" />
++      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/java" isTestSource="true" />
++      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/jni" isTestSource="true" />
++      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/rs" isTestSource="true" />
++      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/shaders" isTestSource="true" />
++      <sourceFolder url="file://$MODULE_DIR$/src/main/res" type="java-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/src/main/assets" type="java-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/src/main/aidl" isTestSource="false" />
++      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
++      <sourceFolder url="file://$MODULE_DIR$/src/main/jni" isTestSource="false" />
++      <sourceFolder url="file://$MODULE_DIR$/src/main/rs" isTestSource="false" />
++      <sourceFolder url="file://$MODULE_DIR$/src/main/shaders" isTestSource="false" />
++      <sourceFolder url="file://$MODULE_DIR$/src/test/res" type="java-test-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/src/test/assets" type="java-test-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/src/test/aidl" isTestSource="true" />
++      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
++      <sourceFolder url="file://$MODULE_DIR$/src/test/jni" isTestSource="true" />
++      <sourceFolder url="file://$MODULE_DIR$/src/test/rs" isTestSource="true" />
++      <sourceFolder url="file://$MODULE_DIR$/src/test/shaders" isTestSource="true" />
++      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/res" type="java-test-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/resources" type="java-test-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/assets" type="java-test-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/aidl" isTestSource="true" />
++      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/java" isTestSource="true" />
++      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/jni" isTestSource="true" />
++      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/rs" isTestSource="true" />
++      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/shaders" isTestSource="true" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/assets" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/blame" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/classes" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/dependency-cache" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-alpha6/jars" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support.test.espresso/espresso-core/2.2.2/jars" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support.test.espresso/espresso-idling-resource/2.2.2/jars" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support.test/exposed-instrumentation-api-publish/0.5/jars" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support.test/rules/0.5/jars" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support.test/runner/0.5/jars" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.0/jars" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/jars" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.0.0/jars" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/design/24.2.0/jars" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.0/jars" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.0/jars" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.0/jars" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.astuetz/pagerslidingtabstrip/1.0.1/jars" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.3.0/jars" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-classes" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-runtime-classes" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-safeguard" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-verifier" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant-run-resources" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant-run-support" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/jniLibs" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifests" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/pre-dexed" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/reload-dex" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/res" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/restart-dex" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/rs" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/shaders" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/symbols" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/transforms" />
++      <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
++      <excludeFolder url="file://$MODULE_DIR$/build/tmp" />
++    </content>
++    <orderEntry type="jdk" jdkName="Android API 24 Platform" jdkType="Android SDK" />
++    <orderEntry type="sourceFolder" forTests="false" />
++    <orderEntry type="library" exported="" name="constraint-layout-solver-1.0.0-alpha6" level="project" />
++    <orderEntry type="library" exported="" name="support-compat-24.2.0" level="project" />
++    <orderEntry type="library" exported="" name="support-v4-24.2.0" level="project" />
++    <orderEntry type="library" exported="" scope="TEST" name="runner-0.5" level="project" />
++    <orderEntry type="library" exported="" scope="TEST" name="espresso-idling-resource-2.2.2" level="project" />
++    <orderEntry type="library" exported="" scope="TEST" name="hamcrest-library-1.3" level="project" />
++    <orderEntry type="library" exported="" name="picasso-2.5.0" level="project" />
++    <orderEntry type="library" exported="" scope="TEST" name="hamcrest-integration-1.3" level="project" />
++    <orderEntry type="library" exported="" name="floatingactionbutton-1.3.0" level="project" />
++    <orderEntry type="library" exported="" name="support-fragment-24.2.0" level="project" />
++    <orderEntry type="library" exported="" name="animated-vector-drawable-24.2.0" level="project" />
++    <orderEntry type="library" exported="" name="design-24.2.0" level="project" />
++    <orderEntry type="library" exported="" name="constraint-layout-1.0.0-alpha6" level="project" />
++    <orderEntry type="library" exported="" name="jackson-annotations-2.2.4" level="project" />
++    <orderEntry type="library" exported="" name="cardview-v7-24.0.0" level="project" />
++    <orderEntry type="library" exported="" scope="TEST" name="jsr305-2.0.1" level="project" />
++    <orderEntry type="library" exported="" scope="TEST" name="espresso-core-2.2.2" level="project" />
++    <orderEntry type="library" exported="" name="support-media-compat-24.2.0" level="project" />
++    <orderEntry type="library" exported="" name="library-2.4.0" level="project" />
++    <orderEntry type="library" exported="" name="recyclerview-v7-24.2.0" level="project" />
++    <orderEntry type="library" exported="" name="jackson-core-2.2.4" level="project" />
++    <orderEntry type="library" exported="" scope="TEST" name="exposed-instrumentation-api-publish-0.5" level="project" />
++    <orderEntry type="library" exported="" scope="TEST" name="rules-0.5" level="project" />
++    <orderEntry type="library" exported="" name="support-core-ui-24.2.0" level="project" />
++    <orderEntry type="library" exported="" name="support-core-utils-24.2.0" level="project" />
++    <orderEntry type="library" exported="" scope="TEST" name="javax.annotation-api-1.2" level="project" />
++    <orderEntry type="library" exported="" name="appcompat-v7-24.2.0" level="project" />
++    <orderEntry type="library" exported="" scope="TEST" name="javax.inject-1" level="project" />
++    <orderEntry type="library" exported="" name="jackson-databind-2.2.4" level="project" />
++    <orderEntry type="library" exported="" name="support-annotations-24.2.0" level="project" />
++    <orderEntry type="library" exported="" name="support-vector-drawable-24.2.0" level="project" />
++    <orderEntry type="library" exported="" name="pagerslidingtabstrip-1.0.1" level="project" />
++    <orderEntry type="library" exported="" scope="TEST" name="javawriter-2.1.1" level="project" />
++    <orderEntry type="library" exported="" scope="TEST" name="hamcrest-core-1.3" level="project" />
++    <orderEntry type="library" exported="" scope="TEST" name="junit-4.12" level="project" />
++    <orderEntry type="module" module-name="gallerydatalib" exported="" />
++  </component>
++</module>
+\ No newline at end of file
+Index: app/build.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/build.gradle	(date 1484335723000)
++++ app/build.gradle	(date 1484335723000)
+@@ -0,0 +1,61 @@
++apply plugin: 'com.android.application'
++
++android {
++    compileSdkVersion 24
++    buildToolsVersion "24.0.1"
++    defaultConfig {
++        applicationId "amruta.com.recipesonapprest"
++        minSdkVersion 14
++        targetSdkVersion 24
++        versionCode 1
++        versionName "1.0"
++        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
++    }
++    buildTypes {
++        release {
++            minifyEnabled false
++            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
++        }
++    }
++
++    packagingOptions {
++        exclude 'META-INF/NOTICE' // will not include NOTICE file
++        exclude 'META-INF/LICENSE' // will not include LICENSE file
++        // as noted by @Vishnuvathsan you may also need to include
++        // variations on the file name. It depends on your dependencies.
++        // Some other common variations on notice and license file names
++        exclude 'META-INF/notice'
++        exclude 'META-INF/notice.txt'
++        exclude 'META-INF/license'
++
++    }
++}
++
++
++
++dependencies {
++    compile project(':gallerydatalib')
++    compile fileTree(dir: 'libs', include: ['*.jar'])
++    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
++        exclude group: 'com.android.support', module: 'support-annotations'
++    })
++    compile 'com.android.support:appcompat-v7:24.1.1'
++    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha6'
++    compile 'com.android.support:appcompat-v7:24.2.0'
++    compile 'com.android.support:design:24.2.0'
++
++    compile 'com.astuetz:pagerslidingtabstrip:1.0.1'
++    compile 'com.melnykov:floatingactionbutton:1.3.0'
++    compile 'com.squareup.picasso:picasso:2.5.0'
++
++    compile 'com.android.support:recyclerview-v7:24.0.0'
++    compile 'com.android.support:cardview-v7:24.0.0'
++
++    compile 'com.fasterxml.jackson.core:jackson-databind:2.2.+'
++    compile 'com.fasterxml.jackson.core:jackson-core:2.2.+'
++    compile 'com.fasterxml.jackson.core:jackson-annotations:2.2.+'
++    compile 'com.android.support:design:24.1.1'
++
++
++    testCompile 'junit:junit:4.12'
++}
+Index: app/proguard-rules.pro
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/proguard-rules.pro	(date 1484335723000)
++++ app/proguard-rules.pro	(date 1484335723000)
+@@ -0,0 +1,17 @@
++# Add project specific ProGuard rules here.
++# By default, the flags in this file are appended to flags specified
++# in /Users/AMRUTA/Library/Android/sdk/tools/proguard/proguard-android.txt
++# You can edit the include path and order by changing the proguardFiles
++# directive in build.gradle.
++#
++# For more details, see
++#   http://developer.android.com/guide/developing/tools/proguard.html
++
++# Add any project specific keep options here:
++
++# If your project uses WebView with JS, uncomment the following
++# and specify the fully qualified class name to the JavaScript interface
++# class:
++#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
++#   public *;
++#}
+Index: app/src/androidTest/java/amruta/com/recipesonapprest/ExampleInstrumentedTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/androidTest/java/amruta/com/recipesonapprest/ExampleInstrumentedTest.java	(date 1484335723000)
++++ app/src/androidTest/java/amruta/com/recipesonapprest/ExampleInstrumentedTest.java	(date 1484335723000)
+@@ -0,0 +1,26 @@
++package amruta.com.recipesonapprest;
++
++import android.content.Context;
++import android.support.test.InstrumentationRegistry;
++import android.support.test.runner.AndroidJUnit4;
++
++import org.junit.Test;
++import org.junit.runner.RunWith;
++
++import static org.junit.Assert.*;
++
++/**
++ * Instrumentation test, which will execute on an Android device.
++ *
++ * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
++ */
++@RunWith(AndroidJUnit4.class)
++public class ExampleInstrumentedTest {
++    @Test
++    public void useAppContext() throws Exception {
++        // Context of the app under test.
++        Context appContext = InstrumentationRegistry.getTargetContext();
++
++        assertEquals("amruta.com.recipesonapprest", appContext.getPackageName());
++    }
++}
+Index: app/src/main/AndroidManifest.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/AndroidManifest.xml	(date 1484335723000)
++++ app/src/main/AndroidManifest.xml	(date 1484335723000)
+@@ -0,0 +1,34 @@
++<?xml version="1.0" encoding="utf-8"?>
++<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++    package="amruta.com.recipesonapprest">
++
++    <uses-permission android:name="android.permission.INTERNET" />
++    <uses-permission android:name="android.permission.INTERNET" />
++    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
++    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
++    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
++
++    <application
++        android:allowBackup="true"
++        android:icon="@mipmap/ic_recipe_launcher"
++        android:label="@string/app_name"
++        android:supportsRtl="true"
++        android:theme="@style/AppTheme">
++
++        <activity android:name=".ui.StartupActivity"
++            android:theme="@style/SplashTheme">
++
++            <intent-filter>
++                <action android:name="android.intent.action.MAIN" />
++
++                <category android:name="android.intent.category.LAUNCHER" />
++            </intent-filter>
++        </activity>
++        <activity android:name=".ui.MainActivity">
++            <intent-filter>
++                <action android:name="android.intent.action.MAIN" />
++            </intent-filter>
++        </activity>
++    </application>
++
++</manifest>
+\ No newline at end of file
+Index: app/src/main/java/amruta/com/recipesonapprest/data/DataCache.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/amruta/com/recipesonapprest/data/DataCache.java	(date 1484335723000)
++++ app/src/main/java/amruta/com/recipesonapprest/data/DataCache.java	(date 1484335723000)
+@@ -0,0 +1,96 @@
++package amruta.com.recipesonapprest.data;
++
++
++import amruta.com.gallerydatalib.model.RecipeCategory;
++import amruta.com.gallerydatalib.model.RecipeCategoryList;
++import amruta.com.gallerydatalib.model.RecipeDetails;
++import amruta.com.gallerydatalib.model.RecipeList;
++
++/**
++ * Created by AMRUTA on 8/17/16.
++ * This class is used to casche the recipe data. It serializes data into the files for better performance.
++ *
++ */
++
++
++
++public class DataCache
++{
++
++    public static RecipeCategoryList InstantiateRecipeObjectsForTesting()
++    {
++        RecipeCategoryList recipeList   =   new RecipeCategoryList();
++
++        RecipeCategory[]recipeCategories   =   new RecipeCategory[3];
++
++        RecipeCategory recipeCategory =   new RecipeCategory();
++        recipeCategory.setCategory("Appetizers");
++        recipeCategory.setImg_url("http://static.food2fork.com/42134272.jpg");
++
++        RecipeCategory recipeCategory1 =   new RecipeCategory();
++        recipeCategory1.setCategory("Soups");
++        recipeCategory1.setImg_url("http://static.food2fork.com/potatosoup66f2.jpg");
++
++
++        RecipeCategory recipeCategory2 =   new RecipeCategory();
++        recipeCategory2.setCategory("Main course");
++        recipeCategory2.setImg_url("http://static.food2fork.com/5337021451_e35711f343_o3593.jpg");
++
++        recipeCategories[0]    =   recipeCategory;
++        recipeCategories[1]    =   recipeCategory1;
++        recipeCategories[2]    =   recipeCategory2;
++
++        recipeList.setRecipeCategory(recipeCategories);
++        recipeList.setCount(3);
++
++        return recipeList;
++
++    }
++
++
++    public static RecipeList InstantiateRecipeDetailsForTesting()
++    {
++        RecipeList recipeList   =   new RecipeList();
++
++        RecipeDetails recipeDetails[]   =   new RecipeDetails[1];
++
++        RecipeDetails recipeDetails1    =   new RecipeDetails();
++        recipeDetails1.setPublisher("Closet Cooking");
++        recipeDetails1.setF2f_url("http://food2fork.com/view/35169");
++
++        StringBuffer stringBuffer=  new StringBuffer();
++        stringBuffer.append(
++                "           2 tablespoons butter,\n" +
++                "           1 pound chicken, \n" +
++                "           1 onion, diced,\n" +
++                "           2 carrots, diced,\n" +
++                "           2 stalks celery, diced,\n" +
++                "           2 cloves garlic, chopped,\n" +
++                "           1/4 cup flour (rice flour for gluten free),\n" +
++                "           3 cups chicken stock,\n" +
++                "           hot sauce to taste,\n" +
++                "           1 large yukon gold boiling potato,\n" +
++                "           salt and pepper to taste,\n" +
++                "           1 cup heavy cream,\n" +
++                "           1/4 cup blue cheese, crumbled");
++
++
++
++        recipeDetails1.setIngredients(stringBuffer.toString());
++
++        recipeDetails1.setSource_url("http://www.closetcooking.com/2011/11/buffalo-chicken-chowder.html");
++        recipeDetails1.setRecipe_id("35169");
++        recipeDetails1.setImage_url("http://static.food2fork.com/Buffalo2BChicken2BChowder2B5002B0075c131caa8.jpg");
++        recipeDetails1.setSocial_rank("100.0");
++        recipeDetails1.setPublisher_url("http://closetcooking.com");
++        recipeDetails1.setTitle("Buffalo Chicken Chowder");
++
++        recipeDetails[0]    =   recipeDetails1;
++
++        recipeList.setRecipes(recipeDetails);
++        recipeList.setCount(1);
++
++        return recipeList;
++
++    }
++}
+Index: app/src/main/java/amruta/com/recipesonapprest/ui/MainActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/amruta/com/recipesonapprest/ui/MainActivity.java	(date 1484758460000)
++++ app/src/main/java/amruta/com/recipesonapprest/ui/MainActivity.java	(date 1484758460000)
+@@ -0,0 +1,118 @@
++package amruta.com.recipesonapprest.ui;
++
++import android.os.AsyncTask;
++import android.os.Bundle;
++import android.support.v4.view.ViewPager;
++import android.support.v7.app.AppCompatActivity;
++
++import com.astuetz.PagerSlidingTabStrip;
++
++import amruta.com.gallerydatalib.impl.ServiceManager;
++import amruta.com.gallerydatalib.model.RecipeList;
++import amruta.com.recipesonapprest.R;
++
++
++/**
++ * This activity is the container for the viewpager and fragments. and responsible for getting data from server.1
++ */
++
++public class MainActivity extends AppCompatActivity {
++
++    PagerSlidingTabStrip tabsStrip;
++    RecipeList recipeList;
++    RecipeList recipeDetails;
++
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.activity_main);
++
++        // Get the ViewPager and set it's PagerAdapter so that it can display items
++        ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
++        viewPager.setAdapter(new SampleFragmentPagerAdapter(getSupportFragmentManager()));
++        viewPager.setOffscreenPageLimit(3);
++
++        // Give the PagerSlidingTabStrip the ViewPager
++        tabsStrip = (PagerSlidingTabStrip) findViewById(R.id.tabs);
++        // Attach the view pager to the tab strip
++        tabsStrip.setViewPager(viewPager);
++        // Attach the page change listener to tab strip and **not** the view pager inside the activity
++        tabsStrip.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
++
++            // This method will be invoked when a new page becomes selected.
++            @Override
++            public void onPageSelected(int position) {
++
++            }
++
++            // This method will be invoked when the current page is scrolled
++            @Override
++            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
++                // Code goes here
++            }
++
++            // Called when the scroll state changes:
++            // SCROLL_STATE_IDLE, SCROLL_STATE_DRAGGING, SCROLL_STATE_SETTLING
++            @Override
++            public void onPageScrollStateChanged(int state) {
++                // Code goes here
++            }
++        });
++        try {recipeList = new DownloadImagesTask().execute("").get();
++
++        } catch (Exception e) {
++            e.printStackTrace();
++        }
++    }
++
++    public RecipeList getMyData() {
++
++        return recipeList;
++    }
++
++    public void setMyRecipeDetailsData(RecipeList recipeDetails) {
++        this.recipeDetails = recipeDetails;
++    }
++
++    public RecipeList getMyRecipeDetailsData() {
++
++        return recipeDetails;
++    }
++
++    private class DownloadImagesTask extends AsyncTask<String, Void, RecipeList> {
++
++        @Override
++        protected RecipeList doInBackground(String... params) {
++
++            RecipeList recipeDetailsArrayList = null;
++            try {
++                Thread.sleep(1000);
++                try {
++                    recipeDetailsArrayList = new ServiceManager().getPhotoImagesFromServer(1, "", "r");
++
++                } catch (Exception e) {
++
++                    e.printStackTrace();
++                }
++
++            } catch (InterruptedException e) {
++                e.printStackTrace();
++            }
++            return recipeDetailsArrayList;
++        }
++
++        @Override
++        protected void onPostExecute(RecipeList result) {
++        }
++
++        @Override
++        protected void onPreExecute() {
++        }
++
++        @Override
++        protected void onProgressUpdate(Void... values) {
++        }
++
++    }
++
++}
+Index: app/src/main/java/amruta/com/recipesonapprest/ui/NewRecipeFragment.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/amruta/com/recipesonapprest/ui/NewRecipeFragment.java	(date 1484335723000)
++++ app/src/main/java/amruta/com/recipesonapprest/ui/NewRecipeFragment.java	(date 1484335723000)
+@@ -0,0 +1,104 @@
++package amruta.com.recipesonapprest.ui;
++
++import android.app.Activity;
++import android.os.Bundle;
++import android.support.v4.app.Fragment;
++import android.util.Log;
++import android.view.LayoutInflater;
++import android.view.View;
++import android.view.ViewGroup;
++import android.widget.ImageView;
++import android.widget.TextView;
++
++import com.squareup.picasso.Picasso;
++
++import amruta.com.gallerydatalib.model.RecipeDetails;
++import amruta.com.gallerydatalib.model.RecipeList;
++import amruta.com.recipesonapprest.R;
++
++
++/**
++ * This class handle the recipe details tab.
++ */
++
++public class NewRecipeFragment extends Fragment
++{
++    private int mPage=3;
++    public static final String ARG_PAGE = "ARG_PAGE";
++    RecipeList recipeDetails =   null;
++    int pos = 0;
++    String recipeId;
++
++    public static NewRecipeFragment newInstance(int page) {
++        Bundle args = new Bundle();
++        args.putInt(ARG_PAGE, page);
++        NewRecipeFragment fragment = new NewRecipeFragment();
++        fragment.setArguments(args);
++        return fragment;
++    }
++
++    @Override
++    public void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++
++        Bundle args = getArguments();
++        if (args != null) {
++            pos =   args.getInt("position");
++            recipeId    =   args.getString("recipe_id");
++        }
++       // mPage = getArguments().getInt(ARG_PAGE);
++    }
++
++    @Override
++    public void onAttach(Activity a) {
++        super.onAttach(a);
++
++    }
++
++    // Inflate the fragment layout we defined above for this fragment
++    // Set the associated text for the title
++    @Override
++    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
++
++
++        View view = inflater.inflate(R.layout.new_recipe_fragment, container, false);
++
++        Log.d("TAG", "onViewCreated");
++
++         MainActivity activity = (MainActivity) getActivity();
++        final RecipeList data   =   activity.getMyData();
++        recipeDetails   =   data;
++        TextView titleView  =   (TextView) view.findViewById(R.id.recipe_details_title);
++        TextView publisherView  =   (TextView) view.findViewById(R.id.recipe_details_publisher);
++        TextView ingredientsView =  (TextView) view.findViewById(R.id.recipe_details_ingredients);
++
++        if(recipeDetails!=null  )
++        {
++            if(recipeDetails.getRecipes()!=null)
++            {
++                RecipeDetails objRecipe =  recipeDetails.getRecipes()[pos] ;
++                titleView.setText(objRecipe.getTitle());
++                publisherView.setText(objRecipe.getPublisher());
++                ingredientsView.setText(recipeDetails.getRecipes()[pos].getIngredients());
++
++                try {
++                    Log.d("LOG", "NewRecipeFragment:onBindViewHolder");
++                    Picasso.with(getContext())
++                            .load(objRecipe.getImage_url())
++                            .resize(0, 325)
++                            .into((ImageView) view.findViewById(R.id.recipe_detail_img));
++
++
++                } catch (Exception e) {
++                    e.printStackTrace();
++                }
++            }
++        }
++        return view;
++    }
++
++    @Override
++    public void onViewCreated(View view, Bundle savedInstanceState) {
++
++    }
++}
+Index: app/src/main/java/amruta/com/recipesonapprest/ui/RecipeHomeFragment.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/amruta/com/recipesonapprest/ui/RecipeHomeFragment.java	(date 1484335723000)
++++ app/src/main/java/amruta/com/recipesonapprest/ui/RecipeHomeFragment.java	(date 1484335723000)
+@@ -0,0 +1,180 @@
++package amruta.com.recipesonapprest.ui;
++
++import android.app.Activity;
++import android.os.Bundle;
++import android.support.v4.app.Fragment;
++import android.support.v4.app.FragmentManager;
++import android.support.v4.app.FragmentTransaction;
++import android.support.v7.widget.RecyclerView;
++import android.support.v7.widget.StaggeredGridLayoutManager;
++import android.util.Log;
++import android.view.LayoutInflater;
++import android.view.View;
++import android.view.ViewGroup;
++import android.widget.ImageView;
++import android.widget.TextView;
++import android.widget.Toast;
++
++import com.squareup.picasso.Picasso;
++
++import amruta.com.gallerydatalib.model.RecipeDetails;
++import amruta.com.gallerydatalib.model.RecipeList;
++import amruta.com.recipesonapprest.R;
++
++import static android.R.attr.data;
++
++/**
++ *
++ * This fragment class inflates recyclerView and shows recipe data fetched from server.
++ */
++
++public class RecipeHomeFragment extends Fragment {
++    public static final String ARG_PAGE = "ARG_PAGE";
++
++    private int mPage;
++    RecyclerView recyclerView;
++    RecipeDetails recipeDetails;
++    RecyclerView.LayoutManager mLayoutManager;
++    RecipeDetails [] recipeDetailses;
++
++
++    public static RecipeHomeFragment newInstance(int page) {
++        Bundle args = new Bundle();
++        args.putInt(ARG_PAGE, page);
++        RecipeHomeFragment fragment = new RecipeHomeFragment();
++        fragment.setArguments(args);
++        return fragment;
++    }
++
++    @Override
++    public void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        mPage = getArguments().getInt(ARG_PAGE);
++    }
++
++    @Override
++    public void onAttach(Activity a) {
++        super.onAttach(a);
++    }
++
++    public void UpdateAdapter(RecipeList recipeList) {
++        if (recipeList != null) {
++            recyclerView.setAdapter(new RecipeListAdapter(recipeList));
++        }
++    }
++
++    public RecipeDetails getMyData()
++    {
++        return recipeDetails;
++    }
++
++    // Inflate the fragment layout we defined above for this fragment
++    // Set the associated text for the title
++    @Override
++    public View onCreateView(LayoutInflater inflater, final ViewGroup container, Bundle savedInstanceState) {
++
++        View view = inflater.inflate(R.layout.home_fragment, container, false);
++        recyclerView = (RecyclerView) view.findViewById(R.id.recipe_list);
++
++        //loading from server
++        Log.d("LOG", "RecipeHomeFragment:onCreateView: Data from server :" + data);
++        MainActivity activity = (MainActivity) getActivity();
++        final RecipeList data = activity.getMyData();
++        //changed layout to staggered grid layout. If you want to change to the vertical list view, uncomment above line
++        //recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
++        mLayoutManager = new StaggeredGridLayoutManager(3, StaggeredGridLayoutManager.VERTICAL);
++        recyclerView.setLayoutManager(mLayoutManager);
++        recyclerView.setAdapter(new RecipeListAdapter(data));
++        recyclerView.addOnItemTouchListener(new RecyclerItemClickListener(getActivity(),
++                recyclerView, new RecyclerItemClickListener.OnItemClickListener() {
++            @Override
++            public void onItemClick(View view, int position) {
++
++                Log.d("LOG", "RecipeHomeFragment: onItemClick"+position);
++                recipeDetailses    =   data.getRecipes();
++                recipeDetails =   recipeDetailses[position];
++
++                replaceGridFragment(position, recipeDetails.getRecipe_id());
++            }
++
++            @Override
++            public void onItemLongClick(View view, int position) {
++                // ...
++            }
++        }));
++        return recyclerView;
++    }
++
++    private void replaceGridFragment(int pos, String id)
++    {
++        Bundle bundle=new Bundle();
++        bundle.putInt("position",pos );
++        bundle.putString("recipe_id", id);
++        FragmentManager fragmentManager = getFragmentManager();
++        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
++        NewRecipeFragment fragment = new NewRecipeFragment();
++        fragment.setArguments(bundle);
++        fragmentTransaction.add(R.id.placeholder_fragment, fragment, "Home");
++        fragmentTransaction.addToBackStack("Home");
++        fragmentTransaction.commit();
++
++    }
++
++    class RecipeListAdapter extends RecyclerView.Adapter<RecipeViewHolder> {
++        private final RecipeList recipeDetailsList;
++
++        RecipeListAdapter(RecipeList recipeDetailsList) {
++            this.recipeDetailsList = recipeDetailsList;
++        }
++
++        @Override
++        public RecipeViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
++            final LayoutInflater layoutInflater = LayoutInflater.from(viewGroup.getContext());
++            final View v = layoutInflater.inflate(R.layout.recipe_card, viewGroup, false);
++            return new RecipeViewHolder(v);
++        }
++
++        @Override
++        public void onBindViewHolder(RecipeViewHolder recipeViewHolder, int i) {
++            try {
++                Log.d("LOG", "RecipeHomeFragment:onBindViewHolder");
++                Picasso.with(getContext())
++                        .load(recipeDetailsList.getRecipes()[i].getImage_url())
++                        .resize(200, 200)
++                        .into((ImageView) recipeViewHolder.itemView.findViewById(R.id.recipe_image));
++
++
++            } catch (Exception e) {
++                e.printStackTrace();
++            }
++        }
++
++        @Override
++        public int getItemCount() {
++            return recipeDetailsList.getCount();
++        }
++
++
++    }
++
++    class RecipeViewHolder extends RecyclerView.ViewHolder  implements View.OnClickListener  {
++        TextView recipeTitle;
++        ImageView recipeImage;
++        TextView recipeSource;
++        TextView socialRank;
++
++        RecipeViewHolder(View itemView) {
++            super(itemView);
++            recipeImage = (ImageView) itemView.findViewById(R.id.recipe_image);
++        }
++
++        @Override
++        public void onClick(View view) {
++            Toast.makeText(view.getContext(), "position = " + getPosition(), Toast.LENGTH_SHORT).show();
++
++            if (view == view.findViewById(R.id.recipe_image)) {
++
++            }
++        }
++    }
++}
+\ No newline at end of file
+Index: app/src/main/java/amruta/com/recipesonapprest/ui/RecipeSearchFragment.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/amruta/com/recipesonapprest/ui/RecipeSearchFragment.java	(date 1484335723000)
++++ app/src/main/java/amruta/com/recipesonapprest/ui/RecipeSearchFragment.java	(date 1484335723000)
+@@ -0,0 +1,152 @@
++package amruta.com.recipesonapprest.ui;
++
++import android.app.Activity;
++import android.os.Bundle;
++import android.support.v4.app.Fragment;
++import android.support.v7.widget.DefaultItemAnimator;
++import android.support.v7.widget.LinearLayoutManager;
++import android.support.v7.widget.RecyclerView;
++import android.util.Log;
++import android.view.LayoutInflater;
++import android.view.View;
++import android.view.ViewGroup;
++import android.widget.ImageView;
++import android.widget.TextView;
++
++import com.squareup.picasso.Picasso;
++
++import amruta.com.gallerydatalib.model.RecipeCategoryList;
++import amruta.com.recipesonapprest.R;
++import amruta.com.recipesonapprest.data.DataCache;
++
++import static android.R.attr.data;
++
++/**
++ * This fragment is responsible for showing search tab
++ */
++
++public class RecipeSearchFragment extends Fragment {
++    public static final String ARG_PAGE = "ARG_PAGE";
++
++    private int mPage;
++    RecyclerView recyclerView;
++
++
++    public static RecipeSearchFragment newInstance(int page) {
++        Bundle args = new Bundle();
++        args.putInt(ARG_PAGE, page);
++        RecipeSearchFragment fragment = new RecipeSearchFragment();
++        fragment.setArguments(args);
++        return fragment;
++    }
++
++    @Override
++    public void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        mPage = getArguments().getInt(ARG_PAGE);
++    }
++
++
++    @Override
++    public void onAttach(Activity a) {
++        super.onAttach(a);
++    }
++
++
++    // Inflate the fragment layout we defined above for this fragment
++    // Set the associated text for the title
++    @Override
++    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
++
++
++        View view = inflater.inflate(R.layout.search_fragment, container, false);
++        recyclerView = (RecyclerView) view.findViewById(R.id.search_list);
++
++
++        //loading from server
++        Log.d("LOG", "SearchFragment:onCreateView: Data from server :" + data);
++       // MainActivity activity = (MainActivity) getActivity();
++      //  RecipeList data = activity.getMyData();
++
++        RecipeCategoryList recipeCategoryList = DataCache.InstantiateRecipeObjectsForTesting();
++
++        recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
++        recyclerView.setAdapter(new RecipeSearchFragment.RecipeListAdapter(recipeCategoryList));
++        recyclerView.setItemAnimator(new DefaultItemAnimator());
++
++        recyclerView.addOnItemTouchListener(new RecyclerItemClickListener(getActivity(),
++                recyclerView, new RecyclerItemClickListener.OnItemClickListener() {
++            @Override
++            public void onItemClick(View view, int position) {
++
++                //Log.d("LOG", "RecipeSearchFragment: onItemClick"+recyclerView.getAdapter().getItemId(position));
++
++                replaceFragment();
++          }
++
++            @Override
++            public void onItemLongClick(View view, int position) {
++                // ...
++            }
++        }));
++
++        //Log.d("LOG", "SearchFragment: Data from server :DataPasser" + data);
++
++
++        return recyclerView;
++    }
++
++    private void replaceFragment()
++    {
++
++    }
++
++
++
++    class RecipeListAdapter extends RecyclerView.Adapter<RecipeSearchFragment.SearchRecipeViewHolder> {
++        private final RecipeCategoryList recipeDetailsList;
++
++        //private final RecipeCategoryList recipeCategoryList = DataCache.InstantiateRecipeObjectsForTesting();
++
++        RecipeListAdapter(RecipeCategoryList recipeDetailsList) {
++            this.recipeDetailsList = recipeDetailsList;
++        }
++
++        @Override
++        public SearchRecipeViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
++            final LayoutInflater layoutInflater = LayoutInflater.from(viewGroup.getContext());
++            final View v = layoutInflater.inflate(R.layout.search_card, viewGroup, false);
++            return new SearchRecipeViewHolder(v);
++        }
++
++        @Override
++        public void onBindViewHolder(SearchRecipeViewHolder recipeViewHolder, int i) {
++            recipeViewHolder.recipeTitle.setText(recipeDetailsList.getRecipeCategory()[i].getCategory());
++            Picasso.with(getContext())
++                    .load(recipeDetailsList.getRecipeCategory()[i].getImg_url())
++                    .resize(0, 325)
++                    .into((ImageView) recipeViewHolder.itemView.findViewById(R.id.recipe_search_image));
++
++
++        }
++
++        @Override
++        public int getItemCount() {
++            return recipeDetailsList.getCount();
++        }
++    }
++
++    class SearchRecipeViewHolder extends RecyclerView.ViewHolder {
++        TextView recipeTitle;
++        ImageView recipeImage;
++        TextView recipeSource;
++
++        SearchRecipeViewHolder(View itemView) {
++            super(itemView);
++            recipeTitle = (TextView) itemView.findViewById(R.id.recipe_search_title);
++            recipeImage = (ImageView) itemView.findViewById(R.id.recipe_search_image);
++        }
++    }
++
++
++}
+Index: app/src/main/java/amruta/com/recipesonapprest/ui/RecyclerItemClickListener.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/amruta/com/recipesonapprest/ui/RecyclerItemClickListener.java	(date 1484335723000)
++++ app/src/main/java/amruta/com/recipesonapprest/ui/RecyclerItemClickListener.java	(date 1484335723000)
+@@ -0,0 +1,62 @@
++package amruta.com.recipesonapprest.ui;
++
++import android.content.Context;
++import android.support.v7.widget.RecyclerView;
++import android.view.GestureDetector;
++import android.view.MotionEvent;
++import android.view.View;
++
++/**
++ * This class handles the click events on recyclerview.
++ */
++
++public class RecyclerItemClickListener implements RecyclerView.OnItemTouchListener {
++    public interface OnItemClickListener {
++        void onItemClick(View view, int position);
++
++        void onItemLongClick(View view, int position);
++    }
++
++    private OnItemClickListener mListener;
++
++    private GestureDetector mGestureDetector;
++
++    public RecyclerItemClickListener(Context context, final RecyclerView recyclerView, OnItemClickListener listener) {
++        mListener = listener;
++
++        mGestureDetector = new GestureDetector(context, new GestureDetector.SimpleOnGestureListener() {
++            @Override
++            public boolean onSingleTapUp(MotionEvent e) {
++                return true;
++            }
++
++            @Override
++            public void onLongPress(MotionEvent e) {
++                View childView = recyclerView.findChildViewUnder(e.getX(), e.getY());
++
++                if (childView != null && mListener != null) {
++                    mListener.onItemLongClick(childView, recyclerView.getChildAdapterPosition(childView));
++                }
++            }
++        });
++    }
++
++    @Override
++    public boolean onInterceptTouchEvent(RecyclerView view, MotionEvent e) {
++        View childView = view.findChildViewUnder(e.getX(), e.getY());
++
++        if (childView != null && mListener != null && mGestureDetector.onTouchEvent(e)) {
++            mListener.onItemClick(childView, view.getChildAdapterPosition(childView));
++        }
++
++        return false;
++    }
++
++    @Override
++    public void onTouchEvent(RecyclerView view, MotionEvent motionEvent) {
++    }
++
++    @Override
++    public void onRequestDisallowInterceptTouchEvent(boolean disallowIntercept) {
++    }
++}
+Index: app/src/main/java/amruta/com/recipesonapprest/ui/SampleFragmentPagerAdapter.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/amruta/com/recipesonapprest/ui/SampleFragmentPagerAdapter.java	(date 1484335723000)
++++ app/src/main/java/amruta/com/recipesonapprest/ui/SampleFragmentPagerAdapter.java	(date 1484335723000)
+@@ -0,0 +1,68 @@
++package amruta.com.recipesonapprest.ui;
++
++import android.support.v4.app.Fragment;
++import android.support.v4.app.FragmentManager;
++import android.support.v4.app.FragmentPagerAdapter;
++import android.support.v4.app.FragmentTransaction;
++import android.util.Log;
++import android.view.ViewGroup;
++
++import com.astuetz.PagerSlidingTabStrip;
++
++import amruta.com.recipesonapprest.R;
++
++/**
++ * This class is the holder for fragment pages.
++ */
++
++
++public class SampleFragmentPagerAdapter extends FragmentPagerAdapter implements PagerSlidingTabStrip.IconTabProvider {
++
++    final int PAGE_COUNT = 3;
++    FragmentManager fragmentManager;
++    private int tabIcons[] = {R.drawable.ic_home24, R.drawable.ic_search24, R.drawable.ic_add24};
++
++    public SampleFragmentPagerAdapter(FragmentManager fm)
++    {
++        super(fm);
++        this.fragmentManager = fm;
++    }
++
++    @Override
++    public int getCount() {
++        return PAGE_COUNT;
++    }
++
++    @Override
++    public Fragment getItem(int position) {
++
++        switch (position) {
++            case 0:
++                return RecipeHomeFragment.newInstance(position + 1);
++            case 1:
++                return RecipeSearchFragment.newInstance(position + 1);
++            case 2:
++                return new NewRecipeFragment().newInstance(position +1);
++            default:
++                return new Fragment();
++        }
++    }
++
++
++    @Override
++    public int getPageIconResId(int position) {
++        return tabIcons[position];
++    }
++
++    @Override
++    public void destroyItem(ViewGroup container, int position, Object object) {
++
++        Log.d("LOG", "SampleFragmentPagerAdapter: destroyItem::"+object);
++        FragmentTransaction ft = fragmentManager.beginTransaction();
++        ft.remove((Fragment) object);
++        ft.commit();
++    }
++}
++
++
++
+Index: app/src/main/java/amruta/com/recipesonapprest/ui/StartupActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/amruta/com/recipesonapprest/ui/StartupActivity.java	(date 1484335723000)
++++ app/src/main/java/amruta/com/recipesonapprest/ui/StartupActivity.java	(date 1484335723000)
+@@ -0,0 +1,17 @@
++package amruta.com.recipesonapprest.ui;
++
++import android.content.Intent;
++import android.os.Bundle;
++import android.support.v7.app.AppCompatActivity;
++
++public class StartupActivity extends AppCompatActivity {
++
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        //setContentView(R.layout.activity_main);
++        Intent intent = new Intent(this, MainActivity.class);
++        startActivity(intent);
++        finish();
++    }
++}
+Index: app/src/main/res/drawable/background_splash.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/drawable/background_splash.xml	(date 1484335723000)
++++ app/src/main/res/drawable/background_splash.xml	(date 1484335723000)
+@@ -0,0 +1,13 @@
++<?xml version="1.0" encoding="utf-8"?>
++<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
++
++    <item
++        android:drawable="@color/colorPrimary"/>
++
++    <item>
++        <bitmap
++            android:gravity="center"
++            android:src="@mipmap/ic_recipe_launcher"/>
++    </item>
++
++</layer-list>
+\ No newline at end of file
+Index: app/src/main/res/layout/activity_main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_main.xml	(date 1484335723000)
++++ app/src/main/res/layout/activity_main.xml	(date 1484335723000)
+@@ -0,0 +1,59 @@
++<?xml version="1.0" encoding="utf-8"?>
++<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:id="@+id/activity_main"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    tools:context="amruta.com.recipesonapprest.ui.MainActivity">
++
++    <android.support.v7.widget.Toolbar
++        android:id="@+id/toolbar"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:background="?attr/colorPrimary"
++        android:minHeight="?attr/actionBarSize"
++        app:titleTextColor="@android:color/white"></android.support.v7.widget.Toolbar>
++
++
++    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
++        xmlns:app="http://schemas.android.com/apk/res-auto"
++        android:layout_width="match_parent"
++        android:layout_height="match_parent"
++        android:orientation="vertical">
++
++        <com.astuetz.PagerSlidingTabStrip
++            android:id="@+id/tabs"
++            android:layout_width="match_parent"
++            android:layout_height="48dp"
++            android:background="@color/colorPrimary"
++            android:textColor="#000000"
++            android:textSize="14sp"
++            app:pstsDividerColor="@color/secondary_text"
++            app:pstsIndicatorColor="@color/secondary_text"
++            app:pstsShouldExpand="true"
++            app:pstsTabPaddingLeftRight="14dp"
++            app:pstsUnderlineColor="@color/secondary_text" />
++
++
++        <android.support.v4.view.ViewPager
++            android:id="@+id/viewpager"
++            android:layout_width="match_parent"
++            android:layout_height="match_parent"
++            android:background="@android:color/white" />
++    </LinearLayout>
++
++    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
++        android:layout_width="match_parent"
++        android:layout_height="match_parent"
++        android:orientation="vertical">
++
++        <FrameLayout
++            android:id="@+id/placeholder_fragment"
++            android:layout_width="match_parent"
++            android:layout_height="match_parent"></FrameLayout>
++
++    </LinearLayout>
++
++
++</android.support.constraint.ConstraintLayout>
+Index: app/src/main/res/layout/home_fragment.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/home_fragment.xml	(date 1484335723000)
++++ app/src/main/res/layout/home_fragment.xml	(date 1484335723000)
+@@ -0,0 +1,35 @@
++<?xml version="1.0" encoding="utf-8"?>
++<android.support.design.widget.CoordinatorLayout
++    android:id="@+id/main_content"
++    xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:fab="http://schemas.android.com/apk/res-auto"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:fitsSystemWindows="true">
++
++
++
++
++    <android.support.v7.widget.RecyclerView
++        android:id="@+id/recipe_list"
++        android:layout_width="match_parent"
++        android:layout_height="match_parent"
++        />
++
++
++
++    <!--<android.support.design.widget.FloatingActionButton-->
++    <!--android:layout_height="wrap_content"-->
++    <!--android:layout_width="wrap_content"-->
++    <!--android:id="@+id/fab"-->
++    <!--android:layout_gravity="bottom|right|end"-->
++    <!--android:src="@drawable/ic_discuss"-->
++    <!--android:layout_margin="@dimen/fab_margin"-->
++    <!--android:clickable="true"/>-->
++
++
++
++
++
++</android.support.design.widget.CoordinatorLayout>
+Index: app/src/main/res/layout/new_recipe_fragment.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/new_recipe_fragment.xml	(date 1484335723000)
++++ app/src/main/res/layout/new_recipe_fragment.xml	(date 1484335723000)
+@@ -0,0 +1,126 @@
++<?xml version="1.0" encoding="utf-8"?>
++
++<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    android:id="@+id/main_content"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:fitsSystemWindows="true"
++    android:background="#FFFFFF">
++
++    <android.support.design.widget.AppBarLayout
++        android:id="@+id/appbar"
++        android:layout_width="match_parent"
++        android:layout_height="@dimen/detail_recipe_height"
++        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
++        android:fitsSystemWindows="true">
++
++        <android.support.design.widget.CollapsingToolbarLayout
++            android:id="@+id/collapsing_toolbar"
++            android:layout_width="match_parent"
++            android:layout_height="match_parent"
++            android:fitsSystemWindows="true"
++            style="@style/SizeSpecificCollapsingToolbarLayout"
++            app:expandedTitleMarginStart="48dp"
++            app:expandedTitleMarginEnd="64dp">
++
++            <ImageView
++                android:id="@+id/recipe_detail_img"
++                android:layout_width="match_parent"
++                android:layout_height="match_parent"
++                android:scaleType="centerCrop"
++                android:fitsSystemWindows="true"
++                app:layout_collapseMode="parallax" />
++
++            <android.support.v7.widget.Toolbar
++                android:id="@+id/toolbar"
++                android:layout_width="match_parent"
++                android:layout_height="?attr/actionBarSize"
++                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
++                app:layout_collapseMode="pin" />
++
++        </android.support.design.widget.CollapsingToolbarLayout>
++
++    </android.support.design.widget.AppBarLayout>
++
++    <android.support.v4.widget.NestedScrollView
++        android:layout_width="match_parent"
++        android:layout_height="match_parent"
++        app:layout_behavior="@string/appbar_scrolling_view_behavior">
++
++        <LinearLayout
++            android:layout_width="match_parent"
++            android:layout_height="match_parent"
++            android:orientation="vertical"
++            android:paddingTop="24dp">
++
++            <android.support.v7.widget.CardView
++                android:layout_width="match_parent"
++                android:layout_height="wrap_content"
++                android:layout_margin="@dimen/card_margin">
++
++                <LinearLayout
++                    style="@style/Widget.CardContent"
++                    android:layout_width="match_parent"
++                    android:layout_height="wrap_content">
++
++                    <TextView
++                        android:id="@+id/recipe_details_title"
++                        android:layout_width="match_parent"
++                        android:layout_height="wrap_content"
++                        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
++
++                    <TextView
++                        android:id="@+id/recipe_details_publisher"
++                        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
++                        android:layout_width="match_parent"
++                        android:layout_height="wrap_content"/>
++
++                </LinearLayout>
++
++            </android.support.v7.widget.CardView>
++
++            <android.support.v7.widget.CardView
++                android:layout_width="match_parent"
++                android:layout_height="wrap_content"
++                android:layout_marginBottom="@dimen/card_margin"
++                android:layout_marginLeft="@dimen/card_margin"
++                android:layout_marginRight="@dimen/card_margin">
++
++                <LinearLayout
++                    style="@style/Widget.CardContent"
++                    android:layout_width="match_parent"
++                    android:layout_height="wrap_content">
++
++                    <TextView
++                        android:id="@+id/recipe_details_ingredients_heading"
++                        android:layout_width="match_parent"
++                        android:layout_height="wrap_content"
++                        android:text="Ingredients:"
++                        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
++
++                    <TextView
++                        android:id="@+id/recipe_details_ingredients"
++                        android:layout_width="match_parent"
++                        android:layout_height="wrap_content"
++                        android:singleLine="false"/>
++
++                </LinearLayout>
++
++            </android.support.v7.widget.CardView>
++
++
++        </LinearLayout>
++
++    </android.support.v4.widget.NestedScrollView>
++
++    <android.support.design.widget.FloatingActionButton
++        android:layout_height="wrap_content"
++        android:layout_width="wrap_content"
++        app:layout_anchor="@id/appbar"
++        app:layout_anchorGravity="bottom|right|end"
++        android:src="@drawable/ic_add24"
++        android:layout_margin="@dimen/fab_margin"
++        android:clickable="true"/>
++
++</android.support.design.widget.CoordinatorLayout>
+\ No newline at end of file
+Index: app/src/main/res/layout/recipe_card.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/recipe_card.xml	(date 1484335723000)
++++ app/src/main/res/layout/recipe_card.xml	(date 1484335723000)
+@@ -0,0 +1,157 @@
++<?xml version="1.0" encoding="utf-8"?>
++<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    android:layout_width="match_parent"
++    android:layout_height="wrap_content"
++    app:cardBackgroundColor="@color/colorPrimaryBackground">
++
++
++    <LinearLayout
++        android:layout_width="match_parent"
++        android:layout_height="match_parent"
++        android:orientation="vertical"
++        >
++
++        <ImageView
++            android:id="@+id/recipe_image"
++            android:layout_width="match_parent"
++            android:layout_height="match_parent"
++            android:layout_weight="1"
++            android:adjustViewBounds="true"
++            android:scaleType="fitCenter" />
++
++        <!--<TextView-->
++            <!--android:id="@+id/recipe_title"-->
++            <!--android:layout_width="wrap_content"-->
++            <!--android:layout_height="wrap_content"-->
++            <!--android:textColor="@color/primary_text"-->
++            <!--android:textSize="@dimen/primary_text"-->
++            <!--android:padding="@dimen/text_padding"/>-->
++
++        <!--<RelativeLayout-->
++            <!--android:layout_width="match_parent"-->
++            <!--android:layout_height="wrap_content"-->
++            <!--android:orientation="vertical">-->
++
++            <!--&lt;!&ndash;<TextView&ndash;&gt;-->
++            <!--&lt;!&ndash;android:id="@+id/source"&ndash;&gt;-->
++            <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
++            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
++            <!--&lt;!&ndash;android:padding="4dp"&ndash;&gt;-->
++            <!--&lt;!&ndash;android:textSize="@dimen/font_size_info"&ndash;&gt;-->
++            <!--&lt;!&ndash;android:textColor="#9E9E9E"&ndash;&gt;-->
++            <!--&lt;!&ndash;android:text="Source:"&ndash;&gt;-->
++            <!--&lt;!&ndash;/>&ndash;&gt;-->
++
++            <!--<TextView-->
++                <!--android:id="@+id/more_info"-->
++                <!--android:layout_width="wrap_content"-->
++                <!--android:layout_height="wrap_content"-->
++                <!--android:padding="@dimen/text_padding"-->
++                <!--android:textColor="@color/secondary_text"-->
++                <!--android:textSize="@dimen/font_size_info"-->
++                <!--android:autoLink="web"-->
++                <!--android:linksClickable="true"-->
++                <!--/>-->
++
++            <!--&lt;!&ndash;<TextView&ndash;&gt;-->
++            <!--&lt;!&ndash;android:id="@+id/src_url"&ndash;&gt;-->
++            <!--&lt;!&ndash;android:layout_width="60dp"&ndash;&gt;-->
++            <!--&lt;!&ndash;android:layout_height="20dp"&ndash;&gt;-->
++            <!--&lt;!&ndash;android:textSize="@dimen/font_size_info"&ndash;&gt;-->
++            <!--&lt;!&ndash;android:textColor="#9E9E9E"&ndash;&gt;-->
++            <!--&lt;!&ndash;android:layout_alignRight="@+id/more_info"&ndash;&gt;-->
++            <!--&lt;!&ndash;android:padding="4dp"&ndash;&gt;-->
++            <!--&lt;!&ndash;android:layout_marginLeft="20dp"&ndash;&gt;-->
++            <!--&lt;!&ndash;android:layout_toEndOf="@+id/more_info"&ndash;&gt;-->
++            <!--&lt;!&ndash;android:layout_toRightOf="@+id/more_info"&ndash;&gt;-->
++            <!--&lt;!&ndash;/>&ndash;&gt;-->
++
++            <!--/>-->
++        <!--</RelativeLayout>-->
++        <!--&gt;-->
++
++        <!--<RelativeLayout-->
++            <!--android:layout_width="match_parent"-->
++            <!--android:layout_height="wrap_content"-->
++            <!--android:orientation="vertical"-->
++            <!--android:padding="2dp">-->
++
++            <!--<TextView-->
++            <!--android:id="@+id/rank"-->
++            <!--android:layout_width="wrap_content"-->
++            <!--android:layout_height="wrap_content"-->
++            <!--android:padding="4dp"-->
++            <!--android:text=""-->
++            <!--android:textColor="#9E9E9E"-->
++            <!--android:textSize="@dimen/font_size_info" />-->
++
++            <!--<TextView-->
++            <!--android:id="@+id/social_rank"-->
++            <!--android:layout_width="wrap_content"-->
++            <!--android:layout_height="wrap_content"-->
++            <!--android:layout_alignParentTop="true"-->
++            <!--android:layout_marginLeft="15dp"-->
++            <!--android:layout_marginStart="15dp"-->
++            <!--android:layout_toEndOf="@+id/rank"-->
++            <!--android:layout_toRightOf="@+id/rank"-->
++            <!--android:padding="4dp"-->
++            <!--android:textColor="#9E9E9E"-->
++            <!--android:textSize="@dimen/font_size_info" />-->
++
++            <!--<ImageView-->
++            <!--android:id="@+id/share_image"-->
++            <!--android:layout_width="wrap_content"-->
++            <!--android:layout_height="wrap_content"-->
++            <!--android:layout_marginLeft="130dp"-->
++            <!--android:layout_marginStart="130dp"-->
++            <!--android:layout_toEndOf="@+id/social_rank"-->
++            <!--android:layout_toRightOf="@+id/social_rank"-->
++            <!--android:layout_weight="1"-->
++            <!--android:adjustViewBounds="true"-->
++            <!--android:paddingTop="4dp"-->
++            <!--android:scaleType="fitCenter"-->
++            <!--android:src="@drawable/ic_share18" />-->
++
++            <!--<ImageView-->
++            <!--android:id="@+id/love_image"-->
++            <!--android:layout_width="24dp"-->
++            <!--android:layout_height="24dp"-->
++            <!--android:layout_weight="1"-->
++            <!--android:adjustViewBounds="true"-->
++            <!--android:scaleType="fitCenter"-->
++            <!--android:src="@drawable/ic_love"-->
++            <!--android:layout_toRightOf="@+id/social_rank"-->
++            <!--android:layout_toEndOf="@+id/social_rank"-->
++            <!--android:layout_marginLeft="185dp"-->
++            <!--android:layout_marginStart="185dp"/>-->
++
++
++            <!--<com.like.LikeButton-->
++                <!--android:id="@+id/star_button"-->
++                <!--android:layout_width="wrap_content"-->
++                <!--android:layout_height="wrap_content"-->
++                <!--android:layout_alignEnd="@+id/follow"-->
++                <!--android:layout_alignParentLeft="@+id/follow"-->
++                <!--android:paddingRight="50dp"-->
++                <!--app:icon_size="25dp"-->
++                <!--app:icon_type="heart" />-->
++
++
++            <!--<TextView-->
++                <!--android:id="@+id/follow"-->
++                <!--android:layout_width="wrap_content"-->
++                <!--android:layout_height="wrap_content"-->
++                <!--android:layout_alignBaseline="@+id/star_button"-->
++                <!--android:layout_marginLeft="50dp"-->
++                <!--android:paddingRight="5dp"-->
++                <!--android:paddingTop="25dp"-->
++                <!--android:text="Follow"-->
++                <!--android:textColor="@color/colorPrimary"-->
++                <!--android:textSize="@dimen/font_size_info" />-->
++
++
++        <!--</RelativeLayout>-->
++
++    </LinearLayout>
++</android.support.v7.widget.CardView>
+\ No newline at end of file
+Index: app/src/main/res/layout/search_card.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/search_card.xml	(date 1484335723000)
++++ app/src/main/res/layout/search_card.xml	(date 1484335723000)
+@@ -0,0 +1,37 @@
++<?xml version="1.0" encoding="utf-8"?>
++<android.support.v7.widget.CardView
++    xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="match_parent"
++    android:layout_height="wrap_content"
++    android:layout_marginTop="@dimen/inter_card_half_spacing"
++    android:layout_marginBottom="@dimen/inter_card_half_spacing"
++    app:cardBackgroundColor="#FFF3E0">
++
++
++    <LinearLayout
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:orientation="vertical"
++        android:padding="@dimen/card_padding">
++
++        <ImageView
++            android:id="@+id/recipe_search_image"
++            android:layout_width="match_parent"
++            android:layout_height="match_parent"
++            android:layout_weight="1"
++            android:adjustViewBounds="true"
++            android:scaleType="fitCenter"/>
++
++        <TextView
++            android:id="@+id/recipe_search_title"
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            android:padding="8dp"
++            android:textSize="@dimen/primary_text"
++            android:textColor="#616161"
++            />
++
++    </LinearLayout>
++</android.support.v7.widget.CardView>
+\ No newline at end of file
+Index: app/src/main/res/layout/search_fragment.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/search_fragment.xml	(date 1484335723000)
++++ app/src/main/res/layout/search_fragment.xml	(date 1484335723000)
+@@ -0,0 +1,42 @@
++<?xml version="1.0" encoding="utf-8"?>
++<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    android:id="@+id/main_content"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:fitsSystemWindows="true">
++
++        <android.support.design.widget.AppBarLayout
++            android:id="@+id/appbar"
++            android:layout_width="match_parent"
++            android:layout_height="@dimen/detail_recipe_height"
++            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
++            android:fitsSystemWindows="true">
++
++
++                <android.support.design.widget.FloatingActionButton
++                    android:layout_height="wrap_content"
++                    android:layout_width="wrap_content"
++                    app:layout_anchor="@id/appbar"
++                    app:layout_anchorGravity="bottom|right|end"
++                    android:src="@drawable/ic_add24"
++                    android:layout_margin="@dimen/fab_margin"
++                    android:clickable="true"/>
++        <android.support.v7.widget.RecyclerView
++        android:id="@+id/search_list"
++        android:layout_width="28dp"
++        android:layout_height="27dp"
++        android:layout_marginTop="50dp"
++        android:clipChildren="true"
++
++        />
++
++
++
++        </android.support.design.widget.AppBarLayout>
++
++
++
++
++
++</android.support.design.widget.CoordinatorLayout>
+\ No newline at end of file
+Index: app/src/main/res/values-w820dp/dimens.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/values-w820dp/dimens.xml	(date 1484335723000)
++++ app/src/main/res/values-w820dp/dimens.xml	(date 1484335723000)
+@@ -0,0 +1,15 @@
++<resources>
++    <!-- Example customization of dimensions originally defined in res/values/dimens.xml
++         (such as screen margins) for screens with more than 820dp of available width. This
++         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively). -->
++    <dimen name="activity_horizontal_margin">64dp</dimen>
++    <dimen name="default_margin_padding">16dp</dimen>
++    <dimen name="inter_card_half_spacing">4dp</dimen>
++    <dimen name="card_padding">8dp</dimen>
++    <dimen name="font_size_header">20sp</dimen>
++    <dimen name="font_size_info">16sp</dimen>
++    <dimen name="margin_textviw">8dp</dimen>
++    <dimen name="card_margin">16dp</dimen>
++    <dimen name="detail_recipe_height">256dp</dimen>
++    <dimen name="fab_margin">16dp</dimen>
++</resources>
+Index: app/src/main/res/values/colors.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/values/colors.xml	(date 1484335723000)
++++ app/src/main/res/values/colors.xml	(date 1484335723000)
+@@ -0,0 +1,22 @@
++<?xml version="1.0" encoding="utf-8"?>
++<resources>
++    <color name="colorPrimary">#FFB74D</color>
++    <color name="colorPrimaryDark">#FFB74D</color>
++    <color name="colorPrimaryBackground">#FFF3E0</color>
++    <color name="colorAccent">#FF4081</color>
++    <color name="tabBackgroundColor">#FFB74D</color>
++
++
++    <color name="theme_primary_accent">#8BC34A</color>
++    <color name="theme_primary_dark">#1976D2</color>
++    <color name="theme_primary_light">#2196F3</color>
++    <color name="theme_window_background">#FFF5F5F5</color>
++    <color name="theme_divider">#B6B6B6</color>
++
++    <color name="primary_text">#616161</color>
++    <color name="secondary_text">#9E9E9E</color>
++
++
++
++
++</resources>
+Index: app/src/main/res/values/dimens.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/values/dimens.xml	(date 1484335723000)
++++ app/src/main/res/values/dimens.xml	(date 1484335723000)
+@@ -0,0 +1,20 @@
++<resources>
++    <!-- Default screen margins, per the Android Design guidelines. -->
++    <dimen name="activity_horizontal_margin">16dp</dimen>
++    <dimen name="activity_vertical_margin">16dp</dimen>
++    <dimen name="default_margin_padding">16dp</dimen>
++    <dimen name="margin_textviw">8dp</dimen>
++    <dimen name="font_size_header">20sp</dimen>
++    <dimen name="font_size_info">14sp</dimen>
++    <dimen name="inter_card_half_spacing">4dp</dimen>
++    <dimen name="card_padding">4dp</dimen>
++    <dimen name="card_margin">16dp</dimen>
++    <dimen name="detail_recipe_height">256dp</dimen>
++    <dimen name="fab_margin">16dp</dimen>
++    <dimen name="primary_text">15dp</dimen>
++    <dimen name="text_padding">5dp</dimen>
++
++
++
++
++</resources>
+Index: app/src/main/res/values/strings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/values/strings.xml	(date 1484335723000)
++++ app/src/main/res/values/strings.xml	(date 1484335723000)
+@@ -0,0 +1,3 @@
++<resources>
++    <string name="app_name">RecipeOnApp</string>
++</resources>
+Index: app/src/main/res/values/styles.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/values/styles.xml	(date 1484335723000)
++++ app/src/main/res/values/styles.xml	(date 1484335723000)
+@@ -0,0 +1,70 @@
++<resources>
++
++    <!-- Base application theme. -->
++    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
++        <!-- Customize your theme here. -->
++        <item name="colorPrimary">@color/colorPrimary</item>
++        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
++        <!--<item name="colorAccent">@color/colorAccent</item>-->
++        <item name="colorAccent">@color/theme_primary_accent</item>
++        <!--<item name="android:windowBackground">@color/theme_window_background</item>-->
++        <!--<item name="colorPrimary">@color/theme_primary_light</item>-->
++        <!--<item name="colorPrimaryDark">@color/theme_primary_dark</item>-->
++        <!--<item name="colorAccent">@color/theme_primary_accent</item>-->
++        <!--<item name="android:windowBackground">@color/theme_window_background</item>-->
++    </style>
++
++    <!--<style name="Theme.Main" parent="Base.Theme">-->
++
++    <!--</style>-->
++
++    <style name="Widget.CardContent" parent="android:Widget">
++        <item name="android:paddingLeft">16dp</item>
++        <item name="android:paddingRight">16dp</item>
++        <item name="android:paddingTop">24dp</item>
++        <item name="android:paddingBottom">24dp</item>
++        <item name="android:orientation">vertical</item>
++    </style>
++
++
++    <style name="Toolbar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
++        <item name="android:background">?attr/colorPrimary</item>
++    </style>
++
++    <style name="ToolbarPopUp" parent ="ThemeOverlay.AppCompat.Light">
++        <item name="android:background">@color/theme_window_background</item>
++    </style>
++
++    <style name="TextAppearance.Medium" parent="TextAppearance.AppCompat.Medium">
++        <item name="android:textColor">@color/primary_text</item>
++    </style>
++
++    <style name="TextAppearance.Small" parent="TextAppearance.AppCompat.Small">
++        <item name="android:textColor">@color/secondary_text</item>
++    </style>
++
++    <style name="SizeSpecificCollapsingToolbarLayout">
++        <item name="layout_scrollFlags">scroll|exitUntilCollapsed</item>
++        <item name="contentScrim">?attr/colorPrimary</item>
++    </style>
++
++    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
++        <item name="android:windowBackground">@drawable/background_splash</item>
++    </style>
++
++    </resources>
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
+Index: app/src/test/java/amruta/com/recipesonapprest/ExampleUnitTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/test/java/amruta/com/recipesonapprest/ExampleUnitTest.java	(date 1484335723000)
++++ app/src/test/java/amruta/com/recipesonapprest/ExampleUnitTest.java	(date 1484335723000)
+@@ -0,0 +1,17 @@
++package amruta.com.recipesonapprest;
++
++import org.junit.Test;
++
++import static org.junit.Assert.*;
++
++/**
++ * Example local unit test, which will execute on the development machine (host).
++ *
++ * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
++ */
++public class ExampleUnitTest {
++    @Test
++    public void addition_isCorrect() throws Exception {
++        assertEquals(4, 2 + 2);
++    }
++}
+\ No newline at end of file
